@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <img src="student.png" alt="student" width="120px" height="100px"  style="margin-bottom: 10px;"/>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <div style="margin-bottom: 10px">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required /><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="Id">Student ID:</label>
+        <input type="text"  placeholder="Enter a number" id="studentId" name="student_id" required /><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your Email" id="email" name="email" required /><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter User Name" name="username" required/><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter Password" name="password" required/><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="DateofBirth">Date of Birth:</label>
+        <input type="date" id="date_of_birth" name="date_of_birth" required
+        /><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="gender">Gender:</label><br />
+        <input type="radio" id="html" name="male" value="HTML" />
+        <label for="html">Male</label><br />
+        <input type="radio" id="css" name="female" value="CSS" />
+        <label for="css">Female</label><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="gender">Language:</label><br />
+        <input type="checkbox" id="bangali" name="bangali" value="Bike" checked
+        />
+        <label for="bangali">Bengali</label><br />
+        <input type="checkbox" id="english" name="english" value="Car" />
+        <label for="english">English</label><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option>Please Select your country</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="India">India</option></select
+        ><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="gender">Address:</label><br />
+        <textarea id="address" placeholder="Enter your present address" name="address" rows="4" required></textarea>
+      </div>
+      <div style="margin-bottom: 10px">
+        <label for="document">Attach your Document:</label> <br />
+        <input type="file" id="document" name="document" accept=".pdf, .doc, .docx" /><br />
+      </div>
+      <div style="margin-bottom: 10px">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+    <hr>
+  </body>
+</html>
