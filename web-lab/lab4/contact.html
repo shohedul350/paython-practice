@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<title>Basic Website</title>
+ <style>
+      * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+      }
+      .body {
+        font-family: arial;
+        font-size: 14px;
+        color: #000;
+      }
+
+      .clear {
+        overflow: hidden;
+      }
+      .templete {
+        width: 1000px;
+        margin: 0 auto;
+      }
+
+      .headersection {
+        background: #334431;
+        color: #fff;
+        height: 120px;
+      }
+
+      .logo {
+        float: left;
+        width: 430px;
+      }
+      .logo img {
+        float: left;
+        margin: 30px;
+        width: 70px;
+        border-radius: 50%;
+      }
+      .logo h2 {
+        color: #fff;
+        font-size: 32px;
+        margin-bottom: 11px;
+        margin-top: 24px;
+      }
+input[type="text"],[type="Email"]{
+       border:1px solid #cfc5b6;
+       border-radius:3px;
+       margin-bottom:5px;
+       padding:5px;
+       width:200px;
+}
+input[type="Submit"]{
+       background:green;
+       border:1px solid #e6af4b;
+       color:#fff;
+       cursor:pointer;
+       font-size:20px;
+       padding:1px 10px;
+      }
+input[type="Submit"]:hover{background:#FEF4E5;color:#000;}
+
+.nevsection{background:#9B999A;}
+.nevsection ul{margin:0;padding:0;list-style:none;}
+.nevsection ul li{display:block;float:left;}
+.nevsection ul a{
+      background:#cdcbcc;
+      color:#444;
+      display:block;
+      font-size:20px;
+      font-weight:bold;
+      margin:5px;
+      padding:5px 30px;
+      text-decoration:none;}
+.nevsection ul a:hover{background:#2F2D2E;color:#fff;}
+
+.contensection{background:#FFFFFF;}
+.mainconten{
+       background:#dfdfdf none repeat scroll 0 0;
+       border:1px solid #FFFFFF;
+       float:left;
+       margin:15px 15px 15px 0;
+       padding:8px 20px;
+       width:1000px;}
+
+     
+
+.About h2{
+       border-bottom:2px solid #555555;
+       font-size:24px;
+       margin-bottom:10px;
+       padding:10px;}
+.footersection{height:90px;background:#334431}
+.footersection p{color:#fff;font-size:30px;font-weight:bold;text-align:center;padding-top:30px;}
+</style>
+</head>
+
+<body>
+       <div class="headersection templete clear">
+              <div class="logo">
+                <img src="images/ball-1023982__340.jpg" alt="logo" />
+                <h2>E-SOFT</h2>
+                <p>Create your dream project</p>
+              </div>
+            </div>
+      <div class="nevsection templete clear">
+             <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+             </ul>
+      </div>
+
+      <div class="contensection templete clear"> 
+<div class="mainconten clear">
+       <div class="About">
+           <h2>Contact me</h2>
+   <table style="width: 600px;height: 300px; font-size: 20px; font-family:  monospace;">
+     <tr>
+        <td>Your first Name:</td>
+        <td>
+        <input type="text"name="firstname"placeholder="Enter frist name" style="width: 300px;height: 20px;border-radius: 5px; background-color: antiquewhite;"/>
+        </td>
+        <tr>
+        <td>Your last Name:</td>
+        <td>
+        <input type="text"name="lastname"placeholder="Enter last name" style="width: 300px;height: 20px;border-radius: 5px; background-color: antiquewhite;"/>
+        </td>
+       <tr>
+        <td>Your Email Address:</td>
+        <td>
+        <input type="Email"name="Email"placeholder="Enter Email Address" style="width: 300px;height: 20px;border-radius: 5px; background-color: antiquewhite; "/>
+        </td>
+       <tr>
+        <tr>
+        <td>Your massage:</td>
+        <td>
+        <input type="text"name="massage"placeholder="massage" style="width: 300px;height: 20px;border-radius: 5px; background-color: antiquewhite;"/>
+        </td>
+        <tr>
+           <td></td>
+         </tr>
+        <td>
+        <input type="submit" name="Submit" Value="Submit" class="submitbutton"/>
+        </td>
+       </table>
+       
+       
+       </div>
+      
+   </div>
+ 
+       
+   <div style="clear:both;">
+       <div class="footersection templete clear">
+              <p>All Rights Reserved | Design by Shohedul</p>
+       </div>
+  </div>
+
+
+  </body>
+</html>
