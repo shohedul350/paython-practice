@@ -3,7 +3,7 @@
   <head>
     <title>Basic Website</title>
     <style>
-   * {
+      * {
         margin: 0;
         padding: 0;
         outline: 0;
@@ -44,6 +44,7 @@
         margin-bottom: 11px;
         margin-top: 24px;
       }
+
       .aboutimage {
         width: 230px;
         height: 230px;
@@ -74,7 +75,32 @@
         background: #2f2d2e;
         color: #fff;
       }
-  
+      .imgsectio {
+        width: 1000px;
+        height: 420px;
+        background-image: url(images/my-desk2.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .imgsectio img {
+        width: 100;
+        border: 1px solid;
+      }
+      .imgsectio h2 {
+        color: #fff;
+        font-size: 40px;
+        margin-bottom: 11px;
+        margin-top: 24px;
+        margin-left: 10px;
+        text-shadow: 2px 2px 0 #666;
+      }
+      .imgsectio p {
+        color: #fff;
+        font-size: 30;
+        margin-left: 10px;
+      }
+
       .contensection {
         background: #ffffff;
       }
@@ -161,47 +187,64 @@
       </ul>
     </div>
 
+    <div class="imgsectio templete clear">
+      <h2>5+ Years of Experience</h2>
+      <p>in software development</p>
+    </div>
 
     <div class="contensection templete clear">
       <div class="mainconten clear">
         <div class="samepost clear">
-          <h2>Projects</h2>
-
-          <h4>Point of sale</h4>
-          <br/>
-          <p>This is my  first team demo point of sale project. I have contributed 50%  in this project. This application guaranteed to save you time, increase the accuracy of your inventory, and help you make informed decisions for your business. you can manage product stock, customer, and sales. Filter due, profit, total sales, sold product cost data within the days. And also can get today's sales, current cash, due, profit, etc.</p>
-          <br/>
-          <p>Build with: Node.js, Express.js, React.js, MongoDB</p>
-        <br/>
-        <br/>
-          <h4>Ecommerce</h4>
-          <br/>
-          <p>This is another team project that i have contribute.this websites allow businesses to showcase their products or services online, and customers can browse, select, and purchase them without leaving the comfort of their homes.
-
+          <h2>ABOUT MY COMPANY</h2>
+          <img src="images/my-desk.jpeg" alt="post image" class="aboutimage" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum. Contrary to popular
+            belief, Lorem Ipsum is not simply random text. It has roots in a
+            piece of classical Latin literature from 45 BC, making it over 2000
+            years old. Richard McClintock, a Latin professor at Hampden-Sydney
+            College in Virginia, looked up one of the more obscure Latin words,
+            consectetur, from a Lorem Ipsum passage, and going through the cites
+            of the word in classical literature, discovered the undoubtable
+            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+            Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+            Cicero, written in 45 BC. This book is a treatise on the theory of
+            ethics, very popular during the Renaissance. The first line of Lorem
+            Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+            1.10.32.
           </p>
-          <br/>
-          <p>Build with: Node.js, Express.js, React.js, MongoDB</p>
         </div>
       </div>
       <div class="sidebar clear">
-
         <div class="samesidebar clear">
-          <h2>Education</h2>
-        
-          <h4><a href="https://green.edu.bd" target="_blank">Green University of Bangladesh</a></h4>
-          <br/>
-          <p>Bachelor of Science (B.Sc.), Computer Science & Engineering (Running)</p>
-          <br/>
-          <p>This curriculum is offered for students seeking a broad and deep knowledge of the theory, design, and applications of digital computers</p>
-          <br/>
-        
-          <h4><a href="https://www.facebook.com/JPI.Gov.BD/" target="_blank">Jhenaidah polytechnic Institute</a></h4>
-          <br/>
-          <p>Diploma, Computer Science</p>
-          <br/>
-          <p>The Diploma in Engineering education is a program focused on practical and skills-oriented training. It is a technical course that only covers the essentials when ranked with an undergraduate engineering degree.</p>
+          <h2>WHAT WE DO</h2>
+          <p>
+            I provide innovative software solutions tailored to meet your unique
+            needs. From developing robust applications to optimizing existing
+            systems, my expertise spans a wide range of technologies. Whether
+            you're looking for a custom web application, mobile app, or database
+            solution.
+          </p>
         </div>
 
+        <div class="samesidebar clear">
+          <h2>HOW WE DO IT</h2>
+          <p>
+            I follow a systematic and collaborative approach to software
+            development. Starting with a thorough analysis of your requirements,
+            I design scalable and efficient solutions. Agile methodologies guide
+            the development process, ensuring flexibility and responsiveness to
+            evolving needs. I prioritize clean and maintainable code, conduct
+            rigorous testing, and deploy with precision.
+          </p>
+        </div>
       </div>
     </div>
 
